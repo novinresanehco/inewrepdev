@@ -1,0 +1,31 @@
+<!-- IF category -->
+<form action="plugins.php">
+    <input type="hidden" name="plugin" value="shop" />
+    <input type="hidden" name="ac" value="search" />
+    <label for="searchCategory">لطفا یک دسته بندی را انتخاب کنید: </label>
+    <select id="searchCategory" name="category">
+        <tag:categories><option value="[id]">[title]</option></tag:categories>
+    </select>
+    <br />
+    <br />
+    <input class="btn btn-primary" type="submit" value="انتخاب">
+</form>
+<!-- ENDIF category -->
+<!-- IF categorySearch -->
+<form action="" method="post">
+    <tag:messages><div class="alert alert-info">[message]</div></tag:messages>
+    ایجاد جستجوی اختصاصی برای دسته <b>[title]</b><hr />
+    لطفا فیلد های مورد نظر جهت نمایش در فرم جستجو را انتخاب کنید : <br />
+    <input type="checkbox" value="price" id="field_price" name="search[]" style="float:right;margin-bottom: -5px" /><label style="float:right;margin-right: 10px" for="field_price">قیمت</label>
+    <div style="clear: both;margin-bottom: 5px"></div>
+    <input type="checkbox" value="title" id="field_title" name="search[]" style="float:right;margin-bottom: -5px" /><label style="float:right;margin-right: 10px" for="field_title">عنوان</label>
+    <div style="clear: both;margin-bottom: 5px"></div>
+    <tag:fields>
+
+        <input type="checkbox" value="[fieldID]" id="field_[name]" name="search[]" style="float:right;margin-bottom: -5px" /><label style="float:right;margin-right: 10px" for="field_[name]">[title]</label>
+        <div style="clear: both;margin-bottom: 5px"></div>
+    </tag:fields>
+    <input class="btn btn-success" type="submit" name="creatSearch" value="ایجاد فرم جستجو" />
+
+</form>
+<!-- ENDIF categorySearch -->

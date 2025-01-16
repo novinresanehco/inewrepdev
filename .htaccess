@@ -1,0 +1,38 @@
+ <Files .*>
+     Order allow,deny
+     Deny from all
+</Files>
+Options -Indexes 
+### never deliver .git folders, .gitIgnore
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^(.*/)?\.+ - [R=403,L]
+# 2nd line of defense (if no mod_rewrite)
+RedirectMatch 403 ^(.*/)?\.+
+# BEGIN samaneh
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^index\.php$ - [L]
+
+# Match "post/{id}%...{slug}" and redirect to "index.php?plugins=cat&pid={id}"
+RewriteRule ^post/([0-9]+).* index.php?plugins=cat&pid=$1 [QSA,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule . /index.php [L]
+
+
+</IfModule>
+# END samaneh

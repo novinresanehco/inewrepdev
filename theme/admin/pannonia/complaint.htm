@@ -1,0 +1,50 @@
+<script>
+    function Mform(method) {
+        if (method == "new_complaint") {
+            var textcomplaint = gi("textcomplaint").value;
+            connect('pages/complaint.php', "textcomplaint=" + encodeURIComponent( textcomplaint ) , 'ajax_tabs_0_content', loadingt, '');
+        }
+
+    }
+</script>
+<div class="actions-wrapper">
+    <div class="widget">
+        <div class="tabbable">
+            <!-- default tabs -->
+            <ul class="nav nav-tabs right-aligned-tabs">
+                <tag:tabs>
+                    <li class="[current]"><a class='tabshandler' href="[url]" data-toggle="tab"><i class="icon-pencil"></i>[title]</a>
+                    </li>
+                </tag:tabs>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                    <form onsubmit="Mform('new_complaint');return false" method=post>
+                        <table border="0" width="100%" class="tbl" id="tabs_0_content">
+							<tr>
+                                <td colspan="2">کاربر گرامی، درصورت وجود هر گونه مشکل و اعتراض نسبت به تیم پشتیبانی لطفا انتقادات و پیشنهادات خود را برای واحد ارزیابی کیفیت تیم پشتیبانی از طریق فرم زیر ارسال بفرمایید.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" id="ajax_tabs_0_content"></td>
+                            </tr>
+                            <tr>
+                                <td>توضيح مشکلات:</td>
+                                <td>
+									<textarea id="textcomplaint" name="textcomplaint"  style="width:80%;height: 150px;"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <center>
+                                        <input onclick="Mform('new_complaint');return false;" type="submit" name="submit" value="ثبت شکایت"
+                                        class="btn btn-success">
+                                    </center>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

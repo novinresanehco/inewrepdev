@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاسبه‌گر کابل سپهران</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        input[type="number"] { direction: ltr; }
+        select[readonly] {
+            background-color: #f3f4f6;
+            pointer-events: none;
+        }
+        .form-group.disabled label {
+            color: #6b7280;
+        }
+        select.readonly {
+            background-color: #f3f4f6;
+            opacity: 0.7;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 1rem;
+            border-radius: 0.25rem;
+        }
+        @media (max-width: 768px) {
+            .grid-cols-2 {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <h1 class="text-2xl font-bold mb-6 text-gray-800">محاسبه‌گر انتخاب کابل</h1>
+            
+            <!-- Calculator Form -->
+            <form id="calculatorForm" class="grid grid-cols-2 gap-6">
+                <!-- Power Input -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">توان (کیلووات)</label>
+                    <input type="number" name="power" class="w-full px-3 py-2 border rounded-md" required>
+                </div>
+
+                <!-- Phase Selection -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">فاز</label>
+                    <select name="phase" class="w-full px-3 py-2 border rounded-md">
+                        <option value="single_phase">تک فاز (220 ولت)</option>
+                        <option value="three_phase">سه فاز (380 ولت)</option>
+                    </select>
+                </div>
+
+                <!-- Conductor Material -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">جنس هادی</label>
+                    <select name="conductor" class="w-full px-3 py-2 border rounded-md">
+                        <option value="cu">مس (Cu)</option>
+                        <option value="al">آلومینیوم (Al)</option>
+                    </select>
+                </div>
+
+                <!-- Cable Length -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">طول کابل (متر)</label>
+                    <input type="number" name="length" class="w-full px-3 py-2 border rounded-md" required>
+                </div>
+
+                <!-- Operating Temperature -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">دمای محیط (°C)</label>
+                    <select name="temperature" class="w-full px-3 py-2 border rounded-md">
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                    </select>
+                </div>
+
+                <!-- Power Factor -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">ضریب توان (Cos φ)</label>
+                    <select name="powerFactor" class="w-full px-3 py-2 border rounded-md">
+                        <option value="0.80">0.80</option>
+                        <option value="0.85">0.85</option>
+                        <option value="0.90">0.90</option>
+                        <option value="0.95">0.95</option>
+                        <option value="1.00">1.00</option>
+                    </select>
+                </div>
+
+                <!-- Voltage Drop -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">درصد افت ولتاژ مجاز (%)</label>
+                    <select name="voltageDrop" class="w-full px-3 py-2 border rounded-md">
+                        <option value="5">5%</option>
+                        <option value="10">10%</option>
+                    </select>
+                </div>
+
+                <!-- Cable Configuration -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">ترکیب کابل</label>
+                    <select name="configuration" class="w-full px-3 py-2 border rounded-md">
+                        <option value="multicore">مولتی کور</option>
+                        <option value="single-core">سینگل کور</option>
+                    </select>
+                </div>
+
+                <!-- Installation Method -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">محل نصب</label>
+                    <select name="installMethod" class="w-full px-3 py-2 border rounded-md">
+                        <option value="air">در هوا</option>
+                        <option value="wall">روی دیوار یا سینی کابل</option>
+                        <option value="natural_ground">در خاک معمولی</option>
+                        <option value="wet_ground">در خاک مرطوب</option>
+                    </select>
+                </div>
+
+                <!-- Cable Arrangement -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">آرایش کابل</label>
+                    <select name="arrangement" class="w-full px-3 py-2 border rounded-md">
+                        <option value="flat">تخت</option>
+                        <option value="triangular">مثلثی</option>
+                    </select>
+                </div>
+
+                <!-- Cable Distance -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">فاصله بین کابل‌ها</label>
+                    <select name="cableDistance" class="w-full px-3 py-2 border rounded-md">
+                        <option value="1D">1D</option>
+                        <option value="2D">2D</option>
+                    </select>
+                </div>
+
+                <!-- Insulation Type -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">نوع عایق</label>
+                    <select name="insulation" class="w-full px-3 py-2 border rounded-md">
+                        <option value="XLPE">XLPE</option>
+                        <option value="PVC">PVC</option>
+                    </select>
+                </div>
+
+                <!-- Shield -->
+                <div class="form-group">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">شیلد</label>
+                    <select name="shield" class="w-full px-3 py-2 border rounded-md">
+                        <option value="without_shield">بدون شیلد</option>
+                        <option value="with_shield">دارای شیلد نوار مسی</option>
+                    </select>
+                </div>
+
+                <!-- Calculate Button -->
+                <div class="col-span-2 mt-6">
+                    <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">
+                        محاسبه کابل مناسب
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="bg-white rounded-lg shadow-lg p-6 hidden">
+            <h2 class="text-xl font-bold mb-4 text-gray-800">نتایج محاسبات</h2>
+            
+            <!-- Basic Results -->
+            <div class="grid grid-cols-2 gap-6 mb-6">
+                <div>
+                    <h3 class="font-medium text-gray-700">سطح مقطع محاسباتی:</h3>
+                    <p id="calculatedSection" class="text-lg"></p>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-700">سطح مقطع استاندارد:</h3>
+                    <p id="standardSection" class="text-lg"></p>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-700">جریان نامی:</h3>
+                    <p id="nominalCurrent" class="text-lg"></p>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-700">نوع کابل:</h3>
+                    <p id="cableType" class="text-lg"></p>
+                </div>
+            </div>
+
+            <!-- Correction Factors -->
+            <div class="mb-6">
+                <h3 class="font-medium text-gray-700 mb-2">ضرایب تصحیح:</h3>
+                <div class="grid grid-cols-3 gap-4" id="factors"></div>
+            </div>
+
+            <!-- Warnings -->
+            <div id="warnings" class="mb-6"></div>
+
+
+
+<!-- Final Result Box -->
+<div id="finalResult" class="mb-6">
+    <div class="p-4 rounded-lg border text-lg" id="resultBox">
+        <!-- محتوا داینامیک اضافه می‌شود -->
+    </div>
+</div>
+
+
+
+            <!-- Product Recommendations -->
+            <div id="products" class="border-t pt-6">
+                <h3 class="font-medium text-gray-700 mb-4">محصولات پیشنهادی:</h3>
+                <div class="space-y-4" id="productList"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="aaaaaaaaaaaafinaly.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('calculatorForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = {
+            power: parseFloat(this.power.value),
+            phase: this.phase.value,
+            conductor: this.conductor.value,
+            length: parseFloat(this.length.value),
+            temperature: parseInt(this.temperature.value),
+            powerFactor: parseFloat(this.powerFactor.value),
+            voltageDrop: this.voltageDrop.value,
+            installMethod: this.installMethod.value,
+            configuration: this.configuration.value,
+            arrangement: this.arrangement.value,
+            cableDistance: this.cableDistance.value,
+            insulation: this.insulation.value,
+            shield: this.shield.value
+        };
+
+        try {
+            const results = CABLE_CALCULATOR.calculate(formData);
+            showResults(results);
+        } catch (error) {
+            alert(error.message);
+        }
+    });
+
+    function showResults(results) {
+        document.getElementById('results').classList.remove('hidden');
+        // نمایش نتیجه نهایی با رنگ مناسب
+const finalResultBox = document.getElementById('resultBox');
+const warningCount = results.warnings ? results.warnings.length : 0;
+
+// تعیین رنگ باکس بر اساس شرایط
+let boxColorClass = 'bg-green-50 border-green-200 text-green-700'; // حالت عادی - سبز
+if (warningCount > 2) {
+    boxColorClass = 'bg-red-50 border-red-200 text-red-700'; // شرایط بحرانی - قرمز
+} else if (warningCount > 1) {
+    boxColorClass = 'bg-yellow-50 border-yellow-200 text-yellow-700'; // هشدار - زرد
+} else if (warningCount === 1) {
+    boxColorClass = 'bg-blue-50 border-blue-200 text-blue-700'; // احتیاط - آبی
+}
+
+// حذف کلاس‌های قبلی و اضافه کردن کلاس جدید
+finalResultBox.className = `p-4 rounded-lg border text-lg ${boxColorClass}`;
+
+// تعیین نوع کابل به فارسی
+let persianCableType = results.cableType;
+if (results.cableType === 'FLEXIBLE CABLE') {
+    persianCableType = 'کابل انعطاف‌پذیر';
+} else {
+    // تبدیل کدهای فنی به نام‌های فارسی
+    switch (results.cableType) {
+        case 'NYY':
+            persianCableType = 'NYY با عایق PVC';
+            break;
+        case 'N2XY':
+            persianCableType = 'N2XY با عایق XLPE';
+            break;
+        case 'NYCY':
+            persianCableType = 'NYCY شیلددار';
+            break;
+        case 'N2XRY':
+            persianCableType = 'N2XRY زره‌دار';
+            break;
+        // سایر موارد را می‌توان اضافه کرد
+    }
+}
+
+// نمایش نتیجه نهایی
+finalResultBox.innerHTML = `
+    کابل متناسب با شرایط مذکور از نوع <span class="font-bold">${persianCableType}</span> 
+    و سطح مقطع کابل برابر <span class="font-bold">${results.standardSection}</span> میلیمتر مربع می‌باشد
+`;
+
+        // نمایش نتایج اصلی
+        document.getElementById('calculatedSection').textContent = `${results.calculatedSection.toFixed(2)} mm²`;
+        document.getElementById('standardSection').textContent = `${results.standardSection} mm²`;
+        document.getElementById('nominalCurrent').textContent = `${results.nominalCurrent.toFixed(2)} A`;
+        document.getElementById('cableType').textContent = results.cableType;
+
+        // نمایش ضرایب تصحیح
+        const factorsDiv = document.getElementById('factors');
+        factorsDiv.innerHTML = Object.entries(results.factors)
+            .map(([key, value]) => `
+                <div class="mb-2">
+                    <span class="font-medium ml-2">${key}:</span>
+                    <span>${value}</span>
+                </div>
+            `).join('');
+
+        // نمایش هشدارها
+        const warningsDiv = document.getElementById('warnings');
+        if (results.warnings && results.warnings.length) {
+            warningsDiv.innerHTML = results.warnings.map(warning => `
+                <div class="warning-box">
+                    ${warning}
+                </div>
+            `).join('');
+        } else {
+            warningsDiv.innerHTML = '';
+        }
+
+        // نمایش محصولات پیشنهادی
+        const productsDiv = document.getElementById('productList');
+        if (results.products && results.products.length) {
+            productsDiv.innerHTML = results.products.map(product => `
+                <div class="border rounded-lg p-4">
+                    <h4 class="font-medium text-lg mb-2">${product.title}</h4>
+                    <p class="text-gray-600 mb-2">${product.description}</p>
+                    <div class="text-sm text-gray-500">
+                        <div>نوع کابل: ${product.specifications.cableType}</div>
+                        <div>سطح مقطع: ${product.specifications.section} mm²</div>
+                        <div>عایق: ${product.specifications.insulation}</div>
+                    </div>
+                    <a href="${product.url}" class="inline-block mt-3 text-blue-600 hover:text-blue-800">
+                        مشاهده محصول →
+                    </a>
+                </div>
+            `).join('');
+        }
+    }
+
+    function updateFormDependencies() {
+        const phase = document.getElementsByName('phase')[0].value;
+        const power = parseFloat(document.getElementsByName('power')[0].value) || 0;
+        const conductor = document.getElementsByName('conductor')[0].value;
+        const installMethod = document.getElementsByName('installMethod')[0].value;
+
+        // به‌روزرسانی فاز بر اساس توان
+        if (power > 7) {
+            document.getElementsByName('phase')[0].value = 'three_phase';
+            document.getElementsByName('phase')[0].querySelector('option[value="single_phase"]').disabled = true;
+        } else {
+            document.getElementsByName('phase')[0].querySelector('option[value="single_phase"]').disabled = false;
+        }
+
+        // به‌روزرسانی عایق بر اساس روش نصب
+        const insulationSelect = document.getElementsByName('insulation')[0];
+        const pvcOption = insulationSelect.querySelector('option[value="PVC"]');
+        if (installMethod === 'natural_ground' || installMethod === 'wet_ground') {
+            insulationSelect.value = 'XLPE';
+            pvcOption.disabled = true;
+        } else {
+            pvcOption.disabled = false;
+        }
+
+        // به‌روزرسانی شیلد
+        const shieldSelect = document.getElementsByName('shield')[0];
+        const withShieldOption = shieldSelect.querySelector('option[value="with_shield"]');
+        if (installMethod === 'natural_ground' || installMethod === 'wet_ground') {
+            shieldSelect.value = 'without_shield';
+            withShieldOption.disabled = true;
+        } else if (conductor === 'al') {
+            if (insulationSelect.value !== 'XLPE') {
+                shieldSelect.value = 'without_shield';
+                withShieldOption.disabled = true;
+            } else {
+                withShieldOption.disabled = false;
+            }
+        } else {
+            withShieldOption.disabled = false;
+        }
+    }
+
+    // اضافه کردن event listener برای وابستگی‌های فرم
+    ['phase', 'power', 'conductor', 'installMethod', 'insulation'].forEach(field => {
+        document.getElementsByName(field)[0].addEventListener('change', updateFormDependencies);
+    });
+
+    // به‌روزرسانی اولیه
+    updateFormDependencies();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<script>
+    $( document ).ready( function() {
+        $( '#editCategoryFrm' ).submit( function() {
+            $( '#loading' ).html( loadingt ).show();
+            $( '#editCategory' ).slideUp();
+            var Fdata = $( this ).serialize();
+            $.ajax( {
+                url : 'plugins.php?plugin=eshop&ac=category&edit=[categoryID]',
+                type : 'POST',
+                data : Fdata,
+                success : function( result )
+                {
+                    tinymce.triggerSave();
+                    $( '#loading' ).hide();
+                    $( '#editCategory' ).slideDown();
+                    bootbox.alert( 'دسته با موفقیت ویرایش شد.' );
+                }
+                , error : function(  )
+                {
+                    bootbox.alert( 'خطا در اتصال' );
+                    $( '#loading' ).hide();
+                    $( '#editCategory' ).slideDown();
+                }
+            } );
+            return false;
+        } );
+    } );
+</script>
+<div id="loading" style="display:none"></div>
+<div id="editCategory">
+    <form id="editCategoryFrm" action="" method="POST">
+        <div style="float:right;width:100px;margin-top:1px">نام دسته: *</div>
+        <div style="float:right;">
+            <input type="text" name="name" value="[title]" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">توضیحات:</div>
+        <div style="float:right;">
+            <textarea name="description_text" style="width:250px;height:200px">[description]</textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">تصویر:</div>
+        <div style="float:right;">
+            <input type="text" name="image" id="image" value="[image]" /> - <a href="mfm.php?mode=standalone&amp;field=image" class="browsefile">
+                <img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست">
+            </a>
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">دسته اصلی</div>
+        <div style="float:right;">
+            <select name="parent">
+                <tag:categories><option value="[id]">[title]</option></tag:categories>
+            </select>
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <br />
+        <div style="float:right;width:100px;margin-top:1px">توضیحات پس از خرید محصول: </div>
+        <div style="float:right;">
+            <textarea name="afterPayment_text" class="editor">[afterPayment]</textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <br /><br />
+        در صورتی که مایل به حذف فیلدهای اضافی قبلی می باشید تیک آن را بردارید : <br />
+        <tag:fields>
+            <input style="float:right" type="checkbox" checked id="field_[name]" name="fields[]" value="[name]" /><label style="float:right;margin-right:10px" for="field_[name]">[title]</label>
+            <div style="clear:both"></div>
+        </tag:fields>
+        <div style="clear:both"></div>       <br /><br />
+
+        <div style="float:right;width:100px;margin-top:1px">فیلدهای جدید محصول - هر فیلد را در یک خط وارد کنید.</div>
+        <div style="float:right;">
+            <textarea name="newfields"  style="width:250px;height:200px"></textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <input type="submit" name="addSubject" class="btn btn-success" value="ویرایش دسته" />
+    </form>
+</div>
+<hr />

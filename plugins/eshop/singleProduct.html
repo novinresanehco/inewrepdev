@@ -1,0 +1,22 @@
+<tag:eproducts>
+    <div class="product">
+        <!-- IF hasPrimaryImage -->
+        <img style="width:100px" src="[primaryImage]" />
+        <!-- ENDIF hasPrimaryImage -->
+        [title]
+        <br />
+        [description]
+        <br />
+        <a href="[url]&action=addToBasket">پرداخت</a> <br />
+        <tag:productImages_[productID]>
+            <img style="width:20px" src="[image]" /> <br />
+        </tag:productImages_[productID]>
+        <tag:productFields_[productID]>
+            [fieldTitle]=[value]<br />
+        </tag:productFields_[productID]>
+        <hr />
+    </div>
+</tag:eproducts>
+<ul class="pages">
+    <tag:pages><li class="[active]"><a href="[url]">[page]</a></li></tag:pages>
+</ul>

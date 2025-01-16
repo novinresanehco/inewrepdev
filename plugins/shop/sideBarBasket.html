@@ -1,0 +1,31 @@
+<div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                                      <img class="uk-icon-home" src="[icon]">سبد خرید
+                                        <br>
+<!-- IF noProduct -->
+<b><font color="red">سبد خرید فاقد محصول است.</font></b>
+<!-- ENDIF noProduct -->
+<!-- IF hasProducts -->
+<table style="text-align: center; direction: rtl; line-height: 20px; border-style: solid; border-width: 0px;" border="1px">
+    <tr>
+        <td>ردیف</td>
+        <td>محصول</td>
+        <td>تعداد</td>
+        <td>قیمت</td>
+        <td>عملیات</td>
+    </tr>
+    <tag:products>
+        <tr>
+            <td>[row]</td>
+            <td style="max-width: 70px;max-height:70px;white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;"><a href="[productUrl]" target="_blank" style="text-overflow: ellipsis;   word-wrap: break-word;   overflow: hidden;   max-height:50px;">[product]</a></td>
+            <td>[count]</td>
+            <td>[totalPrice]</td>
+            <td><a href="[deleteUrl]">حذف</a></td>
+        </tr>
+    </tag:products>
+</table>
+<hr />
+جمع کل : [totalPrice]<br />
+                    <a class="btn btn-inverse viewcart" href="?basket">مشاهده سبد خرید</a>
+</div>

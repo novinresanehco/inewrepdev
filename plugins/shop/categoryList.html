@@ -1,0 +1,33 @@
+<table border="0" width="95%" class="table table-striped" id="duplicate">
+    <tbody>
+        <tr>
+            <td height="26" align="center" width="3%">
+                #
+            </td>
+            <td height="26" align="center" width="26%">
+                <b>عنوان</b>
+            </td>
+            <td height="26" align="center" width="9%">
+                <b>عملیات</b>
+            </td>
+        </tr>
+    <tag:categories>
+        <tr>
+            <td height="26" align="right" width="3%">
+                [row]
+            </td>
+            <td height="26" align="center" width="26%">
+                [name]
+            </td>
+            <td height="26" align="center" width="9%">&nbsp;
+                <a href="plugins.php?plugin=shop&ac=category&edit=[categoryID]">
+                    <img border="0" src="../theme/admin/pannonia/images/edit.gif">
+                </a>
+                <a onclick="return confirm( 'دسته حذف شود؟' )" href="plugins.php?plugin=shop&ac=category&delete=[categoryID]">
+                    <img border="0" src="../theme/admin/pannonia/images/trash.gif">
+                </a>
+            </td>
+        </tr>
+    </tag:categories>
+</tbody>
+</table>

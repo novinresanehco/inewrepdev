@@ -1,0 +1,42 @@
+<form id="pluginThemes" method="post">
+    <table border="0" width="95%" class="table table-striped">
+        <tr>
+            <td align="center"><b>نام پلاگین</b></td>
+            <td align="center"><b>قالب</b></td>
+        </tr>
+        <tag:listtr>
+            <tr>
+                <td>[plugin]</td>
+                <td>
+                    <select name="pluginTheme[[plugin]]" class="select2">
+                        <tag:pluginThemes_[plugin]>
+                            <option value="[theme]" [selected]>[theme]</option>
+                        </tag:pluginThemes_[plugin]>
+                    </select>
+                </td>
+            </tr>
+        </tag:listtr>
+    </table>
+</form>
+<center>
+    <input type="button" class="btn btn-success" value="ثبت تنظیمات" id="saveCatThemes" />
+</center>
+<script>
+    $( '#saveCatThemes' ).on( 'click', function()
+    {
+        $.ajax( {
+            url: 'pages/thememanager.php',
+            data: 'themeAction=savePluginThemes&' + $( '#pluginThemes' ).serialize(),
+            type: 'post',
+            success: function( result )
+            {
+                $( '#savePluginThemesResult' ).html( result );
+                tab_7();
+            },
+            error: function()
+            {
+                alert( 'error' );
+            }
+        } );
+    } );
+</script>

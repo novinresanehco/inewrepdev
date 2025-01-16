@@ -1,0 +1,170 @@
+<div class="post-258 page type-page status-publish hentry">
+							    <header>
+			    	<h2 class="entry-title">سبد خرید</h2>
+			    </header><!-- IF noProduct -->
+<b><font color="red">سبد خرید فاقد محصول است.</font></b>
+<!-- ENDIF noProduct -->
+<!-- IF message -->
+<div style="border:1px black solid;border-radius: 5px;width:98%;padding:7px 10px 7px 5px;font-family: Tahoma;background-color: #CDE69C;font-size: 13px;margin:5px 0;">[msg]</div>
+<!-- ENDIF message -->
+
+<!-- IF hasProducts -->
+<script>
+function changeTotal(productID,current)
+{
+	 var n = prompt("تعداد مورد نظر را وارد کنید",  current );
+	 if (n != null) {
+		if( !isNaN(parseFloat(n)) && isFinite(n) )
+		{
+			document.location = '[siteurl]?productID=' + productID + '&count=' + n+ '&action=addToBasket&redirect=[curPageURLe]';
+		}
+		else
+		{
+			alert( 'تعداد محصول می بایست حداقل 1 عدد باشد.' );
+		}
+	 }
+	return false;
+}
+</script>
+			    			    <div class="entry-content">
+			      <div class="woocommerce">
+
+
+
+<table class="shop_table cart" cellspacing="0">
+	<thead>
+		<tr>
+			<th class="product-remove">&nbsp;</th>
+			<th class="product-name">محصول</th>
+			<th class="product-price">قیمت</th>
+			<th class="product-quantity">تعداد</th>
+			<th class="product-subtotal">مجموع</th>
+		</tr>
+	</thead>
+	<tbody>
+ <tag:products><tr class="cart_item">
+
+					<td class="product-remove">
+						<a href="[deleteUrl]" class="remove" title="حذف کردن این آیتم">×</a>					</td>
+
+					<td class="product-name">
+						<a href="http://demo-bigtheme.ir/max/?product=piza-sima-poza">[product]</a>					</td>
+
+					<td class="product-price">
+						<span class="amount">[price]&nbsp;تومان</span>					</td>
+
+					<td class="product-quantity">
+						<div class="quantity buttons_added">[count] - [<a onclick="changeTotal([productID],[count]);return false;" href="#">تغییر</a>]</div>
+					</td>
+
+					<td class="product-subtotal">
+						<span class="amount">[totalPrice]&nbsp;تومان</span>					</td>
+				</tr> </tag:products>
+
+			</tbody>
+</table>
+
+<div class="cart-collaterals">
+		<div class="cart_total">
+				<div class="cart_totals ">
+
+	
+	<h2>جمع کل سبد خرید</h2>
+
+	<table cellspacing="0">
+
+		<tbody><tr class="cart-subtotal">
+			<th> قیمت کل </th>
+			<td><span class="amount">[totalPrice]&nbsp;تومان</span></td>
+		</tr>
+
+		
+		
+	</tbody></table>
+
+	<hr><br>
+	<div id="">
+<form action="" method="POST" id="commentform" class="form-horizontal row-fluid">
+<div class="cmm-box-left" style="width: 100%;">
+<h2 class="entry-title">تکمیل سفارش محصول</h2>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" placeholder=" * نام و نام خانوادگی" name="fullname" value="[fullname]" value="" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" name="mobile" value="[mobile]" placeholder=" * موبایل" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" name="email" value="[email]" placeholder=" * پست الکترونیک" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" name="tell" value="[tell]" placeholder=" تلفن" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" name="zip" value="[zip]" placeholder=" * کد پستی" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<input style="font-size: 15px;" class="input-block-level" name="address" value="[address]" placeholder=" * آدرس" size="22" tabindex="1" type="text">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<span class="icon-name">
+				<img id="slide-img-1" src="[site]/theme/core/shop/ipic/img/cmm-add.png" class="slide" alt="">
+				</span>
+				<select name="gateway" class="input-block-level">
+        <tag:gateways><option value="[name]">[title]</option></tag:gateways>
+    </select>
+			</div>
+		</div>
+
+    <input type="submit" name="payBasket" value="پرداخت سبد"  class="checkout-button button alt wc-forward"/><br /></div>
+</form></div><hr>
+	
+
+	
+</div>
+		</div>	
+</div>
+
+</div>
+			      			    </div>
+			    
+
+
+<script type="text/javascript">
+	function submitform(){
+		if(document.commentform.comment.value=='' || document.commentform.author.value=='' || document.commentform.email.value==''){
+			alert('Please fill the required field.');
+			return false;
+		} else return true;
+	}
+</script>			</div>

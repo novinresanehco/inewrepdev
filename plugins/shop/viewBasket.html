@@ -1,0 +1,61 @@
+<!-- IF noProduct -->
+<b><font color="red">سبد خرید فاقد محصول است.</font></b>
+<!-- ENDIF noProduct -->
+<!-- IF message -->
+<div style="border:1px black solid;border-radius: 5px;width:98%;padding:7px 10px 7px 5px;font-family: Tahoma;background-color: #CDE69C;font-size: 13px;margin:5px 0;">[msg]</div>
+<!-- ENDIF message -->
+
+<!-- IF hasProducts -->
+<script>
+function changeTotal(productID,current)
+{
+	 var n = prompt("تعداد مورد نظر را وارد کنید",  current );
+	 if (n != null) {
+		if( !isNaN(parseFloat(n)) && isFinite(n) )
+		{
+			document.location = '[siteurl]?productID=' + productID + '&count=' + n+ '&action=addToBasket&redirect=[curPageURLe]';
+		}
+		else
+		{
+			alert( 'تعداد محصول می بایست حداقل 1 عدد باشد.' );
+		}
+	 }
+	return false;
+}
+</script>
+<table style="text-align: center;font-familt: Tahoma;direction:rtl;width: 95%;" border="1px">
+    <tr>
+        <td>ردیف</td>
+        <td>محصول</td>
+        <td>تعداد</td>
+        <td>قیمت واحد</td>
+        <td>قیمت کل</td>
+        <td>عملیات</td>
+    </tr>
+    <tag:products>
+        <tr>
+            <td>[row]</td>
+            <td><a href="[productUrl]" target="_blank">[product]</a></td>
+            <td>[count] - [<a onclick="changeTotal([productID],[count]);return false;" href="#">تغییر</a>] </td>
+            <td>[price]</td>
+            <td>[totalPrice]</td>
+            <td><a href="[deleteUrl]">حذف</a></td>
+        </tr>
+    </tag:products>
+</table>
+<hr />
+جمع کل : [totalPrice]<br />
+<form action="" method="POST">
+    * <input name="fullname" value="[fullname]" placeholder="نام و نام خانوادگی" /> <br />
+    * <input name="mobile" value="[mobile]" placeholder="موبایل" /> <br />
+    * <input name="email" value="[email]" placeholder="پست الکترونیک" /> <br />
+    <input name="tell" value="[tell]" placeholder="تلفن" /> <br />
+    * <input name="zip" value="[zip]" placeholder="کد پستی" /> <br />
+    * <input name="address" value="[address]" placeholder="آدرس" /> <br />
+    <select name="gateway">
+        <tag:gateways><option value="[name]">[title]</option></tag:gateways>
+    </select>
+    <input type="submit" name="payBasket" value="پرداخت سبد" /><br />
+</form>
+<a href="[site]">بازگشت و ادامه خرید</a>
+<!-- ENDIF hasProducts -->

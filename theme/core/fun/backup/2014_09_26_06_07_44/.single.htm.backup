@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[sitetitle]</title>
+                    <meta name="keywords" content="[sitekeywords]">
+                        <meta name="description" content="[sitedescription]">
+<meta name="robots" content="index,follow" />
+							<base href="[site]" target="_self">
+<link rel="canonical" href="[site]" />
+<link rel="alternate" type="application/rss+xml" title="title" href="[site]/rss.xml" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- main JS libs -->
+<script src="[site]theme/core/fun/js/libs/modernizr.min.js"></script>
+<script src="[site]theme/core/fun/js/libs/jquery-1.10.0.js"></script>
+<script src="[site]theme/core/fun/js/libs/jquery-ui.min.js"></script>
+<script src="[site]theme/core/fun/js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS -->
+<link href="[site]theme/core/fun/css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="[site]theme/core/fun/style.css" media="screen" rel="stylesheet">
+
+<!-- scripts -->
+<script src="[site]theme/core/fun/js/general.js"></script>
+<!-- custom input -->
+<script src="[site]theme/core/fun/js/jquery.customInput.js"></script>
+<script type="text/javascript" src="[site]theme/core/fun/js/custom.js"></script>
+<!-- Placeholders -->
+<script type="text/javascript" src="[site]theme/core/fun/js/jquery.powerful-placeholder.min.js"></script>
+
+  <style type="text/css">
+body
+{
+background: [config_theme_fun_bgcolor] url('[config_theme_fun_mainbg]') repeat;
+} 
+        </style>
+<!-- Scroll Bars -->
+<script src="[site]theme/core/fun/js/jquery.mousewheel.js"></script>
+<script src="[site]theme/core/fun/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript">
+	jQuery(function()
+	{
+		jQuery('.scrollbar.style2').jScrollPane({
+			verticalDragMaxHeight: 30,
+			verticalDragMinHeight:30
+		});
+	});
+</script>
+
+<!--[if lt IE 9]><script src="[site]theme/core/fun/js/respond.min.js"></script><![endif]-->
+<!--[if gte IE 9]>
+<style type="text/css">
+    .gradient {filter: none !important;}
+</style>
+<![endif]-->
+</head>
+
+
+<body>
+    <div class="body_wrap">
+        <div class="container">
+
+       
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	
+	<div class="collapse navbar-collapse">
+		
+  <ul class="dropdown clearfix gradient">
+                        <li class="menu-level-0"><a href="#"><span>Home</span></a></li>
+                        <li class="menu-level-0"><a href="#"><span>About</span></a>
+                            <ul class="submenu-1">
+                                <li class="menu-level-1"><a href="#">Web design</a></li>
+                                <li class="menu-level-1"><a href="#">User interface</a></li>
+                                <li class="menu-level-1"><a href="#">Social media</a>
+                                    <ul class="submenu-2">
+                                        <li class="menu-level-2"><a href="#">Gallery images</a></li>
+                                        <li class="menu-level-2"><a href="#">OneByOne Slider</a></li>
+                                        <li class="menu-level-2"><a href="#">Video in header</a></li>
+                                        <li class="menu-level-2"><a href="#">Video Slider</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-level-0"><a href="#"><span>Contacts</span></a></li>
+                    </ul>
+	
+		
+	</div>
+</div>
+
+
+<div class="row wrap" style="padding-top:55px;">
+  
+  <!--left-->
+  <div class="col-sm-3">
+    <sidebar_1_3>
+     <div class="row">
+      <div class="col-xs-12">
+	  <tag:position4>
+				<div class="add-comment styled boxed boxed-cream">
+                    <span class="add-comment-close">&times;</span>
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                       [content]
+                    </div>
+                </div></tag:position4>
+        <hr>
+	   </div>
+      </div>
+    	</sidebar_1_3>
+    
+  </div><!--/left-->
+  
+  <!--center-->
+  <div class="col-sm-6">
+
+    <div class="row">
+			<sidebar_1_2>
+			<tag:mp>
+			<div class="add-comment styled boxed boxed-cream">
+                    <div class="add-comment-title gradient"><h3 style="float: right; direction: rtl;background-color: rgba(78, 255, 0, 0.29); height: 72%;">[subject] »</h3><a href="[link]"><h3>[title]</h3></a></div>
+                    <div class="comment-form"><!-- IF hasImage -->
+					<img class="img-thumbnail"  alt="[title]" src="[timage]" style="float: right; width: 45%;margin: 6px -4px -4px 7px;"><!-- ENDIF hasImage -->
+                      [body]<hr>	
+<div class="tagcloud style3 margin-30">
+                    <a href="#" class="tag-link-1" title="2 topics"><span>tag 1</span></a>
+                    <a href="#" class="tag-link-2" title="3 topics"><span>tag 1</span></a>
+                    <a href="#" class="tag-link-7" title="6 topics"><span>tag 1</span></a>
+                </div>					<!-- IF CommentArea -->
+[comments]
+<!-- ENDIF CommentArea -->			  
+                    </div>
+					
+					
+                </div>
+			</tag:mp>
+			<tag:position3>	
+	<div class="add-comment styled boxed boxed-cream">
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                      [content]
+                    </div>
+                </div></tag:position3>
+</sidebar_1_2>
+    </div>
+    <hr>
+    <div class="buttons">
+     <tag:pages_prev><a href="[pagelink]" class="btn btn-left"><span>Back</span></a></tag:pages_prev>
+     <tag:pages><a href="[pagelink]" class="btn btn-hover"><span>[page]</span></a></tag:pages>
+     <tag:pages_next><a href="[pagelink]" class="btn btn-right"><span>Next</span></a></tag:pages_next>
+                    </div>
+
+					
+  </div><!--/center-->
+  
+  
+  <!--right-->
+  <div class="col-sm-3">
+    <sidebar_1_1>
+    <div class="row">
+     <div class="col-xs-12">
+	  
+				<tag:position2>
+    	<div class="add-comment styled boxed boxed-cream">
+                    <span class="add-comment-close">&times;</span>
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                       [content]
+                    </div>
+                </div>
+</tag:position2>
+        <hr>
+	   </div>
+      </div>
+    </sidebar_1_1>
+  </div><!--/right-->
+  
+  <hr>
+  
+</div>
+
+        </div>
+        <!--/ container -->
+    </div>
+	<div>
+	
+<div class="footer" style="background-color: rgba(250, 235, 215, 0.27);">
+              <div class="container">
+               
+                  <div class="footer-logo"><a href="[site]"><img src="[config_theme_fun_footerlogo]"></a></div>
+                
+                <div class="footer-copyright text-center" style="direction: rtl;">تمام حقوق مادی و معنوی این سایت متعلق به[sitetitle]می باشد</div>
+              </div>
+            </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<tag:products>
+    <div class="product">
+        <!-- IF hasPrimaryImage -->
+        <img style="width: 100%; max-width: 220px; float: right;" src="[primaryImage]" />
+        <!-- ENDIF hasPrimaryImage -->
+        <h1 style="font-size: 20px; margin: -5px;">[title]</h1>
+        <br />
+        [description]
+        <br />
+		<tag:productImages_[productID]>
+            <img  style="width: 100%; max-width: 220px; float: right;" src="[image]" /> <br />
+        </tag:productImages_[productID]>
+        <tag:productFields_[productID]>
+            [fieldTitle]=[value]<br />
+        </tag:productFields_[productID]>
+        <hr />
+        <a href="[url]&action=addToBasket">افزودن به سبد خرید</a> <br />
+        
+    </div>
+</tag:products>
+<ul class="pages">
+    <tag:pages><li class="[active]"><a href="[url]">[page]</a></li></tag:pages>
+</ul>

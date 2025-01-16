@@ -1,0 +1,21 @@
+<!-- IF Contact_Error -->
+<div class="error">[ErrorMsg]</div>
+<!-- ENDIF Contact_Error -->
+<!-- IF Contact_success --><div class="success" align="right">
+	[Msg]</div>
+<!-- ENDIF Contact_success -->
+
+<!-- IF Contact_Form -->
+<form action="" method="post">
+<dl class="footer-nav">
+                   <dt class="nav-title">تماس باما</dt>
+                    <dd class="nav-item"><div class="form-group">
+ <input name=name class="form-control login-field" value="[contact_name]" placeholder="Enter your name" id="name" type="text"><br>
+ <input name=email class="form-control login-field" value="[contact_email]" placeholder="Enter your Mail" id="mail" type="text"><br>
+ <textarea name="text" class="form-control login-field"  id="mail" name="[contact_text]" cols="20" rows="2"  style="height: 160px"></textarea><br>
+          <INPUT class="btn btn-primary btn-lg btn-block" type=submit name=submit value="ارسال پیام" tabindex="8" >
+            </div></dd>
+                    
+                  </dl>
+</form>
+<!-- ENDIF Contact_Form -->

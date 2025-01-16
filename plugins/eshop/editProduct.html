@@ -1,0 +1,114 @@
+<script>
+    $( document ).ready( function() {
+        $( '#addImage' ).click( function() {
+            var c = $( '.productImage' ).length + 1;
+            $( '#images' ).append( '<div style="clear:both"></div><br /><input type="text" name="images[]" id="image_' + c + '" class="input-xlarge productImage" value="" /> - <a href="mfm.php?mode=standalone&amp;field=image_' + c + '" class="browsefile"><img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست"></a>' );
+            return false;
+        } );
+        $( '#editProductFrm' ).submit( function()
+        {
+            
+            $( '#loading' ).html( loadingt ).show();
+            tinymce.triggerSave();
+            $( '#editProduct' ).slideUp();
+            $.ajax( {
+                url : 'plugins.php?plugin=eshop&ac=product&edit=[editID]',
+                type : 'POST',
+                dataType : 'json',
+                data : 'edit=[ncategoryID]&' + $( '#editProductFrm' ).serialize(),
+                success : function( result )
+                {
+                    if ( result.success )
+                    {
+                        $( '#loading' ).hide();
+                        $( '#editProduct' ).slideDown();
+                        bootbox.alert( 'محصول با موفقیت ویرایش شد.' );
+                    }
+                    else
+                    {
+                        bootbox.alert( result.error );
+                        $( '#loading' ).hide();
+                        $( '#editProduct' ).slideDown();
+                    }
+                },
+                error : function()
+                {
+                    bootbox.alert( 'خطا در اتصال' );
+                    $( '#loading' ).hide();
+                    $( '#editProduct' ).slideDown();
+                }
+            } );
+            return false;
+        } );
+    } );
+</script>
+<div id="loading"></div>
+<div id="editProduct">
+    <form id="editProductFrm" action="" method="POST">
+        <div style="float:right;width:100px;margin-top:1px">عنوان محصول *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="productName" value="[title]" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">توضیحات محصول *</div>
+        <div style="float:right;">
+            <textarea name="description_text" class="editor">[description]</textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px"> قیمیت *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="price" value="[price]" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">لینک *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="link" id="link" value="[link]" /> - <a href="mfm.php?mode=standalone&amp;field=link" class="browsefile">
+                <img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست">
+            </a>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">تصویر:</div>
+        <div style="float:right;">
+            <span id="images">
+                <tag:eproduct_images>
+                    <div style="clear:both"></div><br />
+                    <input type="text" name="images[]" id="image_[row]" class="input-xlarge productImage" value="[imageUrl]" /> - <a href="mfm.php?mode=standalone&amp;field=image_[row]" class="browsefile">
+                        <img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست">
+                    </a>
+                </tag:eproduct_images>
+            </span>
+            <br /><a id="addImage" href="">افزودن تصویر جدید</a>
+        </div>
+        <div style="clear:both"></div>
+        <div style="float:right;width:120px;margin-top:1px">دسته</div>
+        <div style="float:right;">
+            [categoryTitle]
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <tag:fields>
+            <div style="clear:both"></div>
+            <div style="float:right;width:100px;margin-top:1px">[title]:</div>
+            <div style="float:right;">
+                <input type="text" name="fields[[name]]" class="input-xlarge" value="[value]" />
+            </div>
+            <div style="clear:both"></div>
+            <br />
+        </tag:fields>
+        <tag:fieldstext>
+            <div style="clear:both"></div>
+            <div style="float:right;width:100px;margin-top:1px">[title]:</div>
+            <div style="float:right;">
+                <textarea class="editor" name="fields[[name]]">[value]</textarea>
+            </div>
+            <div style="clear:both"></div>
+            <br />
+        </tag:fieldstext>
+        <div style="clear:both"></div>
+        <input type="submit" name="editProduct" class="btn btn-success" value="ویرایش محصول" />
+    </form>
+</div>

@@ -1,0 +1,3297 @@
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:19:57 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:19:57 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:19:57 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:19:57 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:19:57 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:19:57 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:19:57 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:19:57 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956197' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956197) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:19:57 - Found posts count - Data: 0
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:19:57 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:19:57 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:19:57 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:19:57 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:19:57 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956197' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956197) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:19:57 - Found posts count - Data: 0
+2025-01-15 19:19:57 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:19:58 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:00 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:20:03 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:20:03 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:20:03 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:03 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:03 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956203' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956203) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:03 - Found posts count - Data: 0
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:03 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:03 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:03 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956203' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956203) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:03 - Found posts count - Data: 0
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:20:03 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:20:03 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:20:03 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:03 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:03 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956203' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956203) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:03 - Found posts count - Data: 0
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:03 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:03 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:03 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:03 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956203' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956203) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:03 - Found posts count - Data: 0
+2025-01-15 19:20:03 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:05 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:06 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:20:42 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:20:42 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:42 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:42 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:20:42 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:20:42 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:42 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:20:42 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956242' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956242) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:42 - Found posts count - Data: 0
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:42 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:42 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:20:42 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:42 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:20:42 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956242' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956242) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:20:42 - Found posts count - Data: 0
+2025-01-15 19:20:42 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:43 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:20:44 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:21:45 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:21:45 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:21:45 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:21:45 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:21:45 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:21:45 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:21:45 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:21:45 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956305' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956305) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:21:45 - Found posts count - Data: 0
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:21:45 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:21:45 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:21:45 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:21:45 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:21:45 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736956305' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736956305) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:21:45 - Found posts count - Data: 0
+2025-01-15 19:21:45 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:21:46 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:31:48 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArmouredCable-SWA::::Sepehran
+)
+
+2025-01-15 19:36:05 - Found matches for pattern - Data: Array
+(
+    [pattern] => #\[recentPostByCat\_([0-9]+)(\_([a-z0-9\-]+))?\]#Ui
+    [matches] => Array
+        (
+            [0] => Array
+                (
+                    [0] => [recentPostByCat_43]
+                    [1] => [recentPostByCat_43_LastPost]
+                )
+
+            [1] => Array
+                (
+                    [0] => 43
+                    [1] => 43
+                )
+
+            [2] => Array
+                (
+                    [0] => 
+                    [1] => _LastPost
+                )
+
+            [3] => Array
+                (
+                    [0] => 
+                    [1] => LastPost
+                )
+
+        )
+
+)
+
+2025-01-15 19:36:05 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:36:05 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => 
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:36:05 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_.htm
+2025-01-15 19:36:05 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_.htm
+2025-01-15 19:36:05 - Checking template path - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:36:05 - Found template file - Data: plugins/recentpostbycat/block-theme.html
+2025-01-15 19:36:05 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736957165' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736957165) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:36:05 - Found posts count - Data: 0
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:36:05 - Processing match - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:36:05 - Output function called - Data: Array
+(
+    [categories] => 43
+    [template] => LastPost
+    [count] => 10
+    [offset] => 0
+)
+
+2025-01-15 19:36:05 - Checking template path - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:36:05 - Found template file - Data: /home/sepehra8/public_html/core/../theme/core/sepehran/plugins/recentpostbycat_43_LastPost.htm
+2025-01-15 19:36:05 - Executing query - Data: SELECT * FROM `data` WHERE 
+        (`cat_id`='43' OR `data`.`id` IN (SELECT `pid` FROM `catpost` WHERE `catid` = '43'))
+        AND `date` <= '1736957165' 
+        AND (`expire`='0' OR `expire`='' OR `expire`>1736957165) 
+        AND (`show`!='4' || `show`='2') 
+        ORDER BY `id` DESC 
+        LIMIT 0,10
+2025-01-15 19:36:05 - Found posts count - Data: 0
+2025-01-15 19:36:05 - Parser started - Data: Array
+(
+    [tpl] => <dt class="nav-title"></dt>
+
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:36:06 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:36:08 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] =>  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style>
+<div class
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <style>
+element {
+    width: 114%;
+    margin: 2px -16px -15px 0px;
+}</style>
+<div class="block
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <style>
+.list-group-item {
+    width: 114%;
+    margin:2px -17px -2px 0px;
+}</style><div class="
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="block block-brand">
+    <div class="block-title title1">
+        <h2>
+            <span>
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <ul  class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li  class="uk-parent">
+     
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            <li >
+<div class="uk-overlay" >
+        <a h
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => 
+    <div class="product">
+        
+        <img style="width:100px" src="[site]/files/bg-red_450x27
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <ul id="responsive" class="content-slider">
+            
+        </ul>
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <ul   class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav="">
+    <li>
+            <img src=""
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="row">
+<div class="panel panel-primary shopbox">
+                        <div class="bibo
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box" style="font-size: 16px; font-weight: inherit;">
+                 
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => 								<div id="pshop" style="display: none;"><h2>محصولات برتر</h2>
+									<div class=
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div class="uk-panel uk-panel-box">
+                                        <h3 class="uk-panel-titl
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => <div align="center">
+    <span id="lastimg">
+        
+            <a class='fancybox' href="https://
+)
+
+2025-01-15 19:36:12 - Parser started - Data: Array
+(
+    [tpl] => 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sepehran Cable Fidar</ti
+)
+

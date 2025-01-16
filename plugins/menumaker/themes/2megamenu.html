@@ -1,0 +1,121 @@
+<script type="text/javascript">
+ jQuery( function(){
+	jQuery('#menu .level1').each(function(k,v)
+	{
+		var count = jQuery(this).find('.megamenuc > ul').length;
+		if( count > 0 )
+		{
+			switch( count )
+			{
+				case 1:
+					jQuery(this).find('.megamenuc').addClass('one-column');
+					jQuery(this).find('.megamenuc').parent().addClass('one-column');
+				break;
+				case 2:
+					jQuery(this).find('.megamenuc:first').addClass('two-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('two-column');
+				break;
+				case 3:
+					jQuery(this).find('.megamenuc').addClass('three-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('three-column');
+				break;
+				case 4:
+					jQuery(this).find('.megamenuc').addClass('four-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('four-column');
+				break;
+				case 5:
+					jQuery(this).find('.megamenuc').addClass('five-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('five-column');
+				break;
+				case 6:
+					jQuery(this).find('.megamenuc').addClass('six-column');
+					jQuery(this).find('.megamenuc').parent().addClass('six-column');
+				break;
+				case 7:
+					jQuery(this).find('.megamenuc:first').addClass('seven-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('seven-column');
+				break;
+				case 8:
+					jQuery(this).find('.megamenuc').addClass('eight-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('eight-column');
+				break;
+				case 9:
+					jQuery(this).find('.megamenuc').addClass('nine-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('nine-column');
+				break;
+				case 10:
+					jQuery(this).find('.megamenuc').addClass('ten-column');
+					jQuery(this).find('.megamenuc:first').parent().addClass('ten-column');
+				break;
+			}
+		}
+		else
+		{
+			jQuery(this).find('.megamenuc > ul').remove();
+		}
+	});
+	//alert( jQuery('.megamenuc').length );
+ } );
+ 
+</script>
+<div id="main-menu" class="main-menu">
+                            <nav id="primary-menu" class="primary-menu" role="navigation">
+                                <div class="container">
+                                    <div class="mid-header clearfix">
+                                        <a href="#" class="phone-icon-menu"></a>
+                                        <div class="navbar-inner navbar-inverse">
+										<select class="ya_selectmenu visible-tablet">
+                                                <tag:menu1><option value="[link1]" >[label1]</option>
+												<tag:menu2[id]><option value="[link2]">-[label2]</option> 
+                                                <tag:menu3[id2]><option value="[link3]">--[label3]</option></tag:menu3[id2]>
+												</tag:menu2[id]></tag:menu1>
+                                            </select>
+											
+		<ul id="menu" class="nav nav-pills visible-tablet nav-mega ya-selectmenu"> 
+    <tag:menu1>
+        <li class="active dropdown menu ya-mega-menu level1">
+		<a href="[link1]" class="item-link dropdown-toggle"><span class="have-title"><span class="menu-title">[label1]</span></span></a>
+            <ul class="dropdown-menu nav-level1 ">
+                <tag:menu2[id]>
+                    <li class="megamenuc dropdown-submenu menu">
+					<span class="have-title"><span class="menu-title">[label2]</span></span>
+                        <ul class="dropdown-sub nav-level2">
+                            <tag:menu3[id2]>
+                                <li class="menu">
+								<a href="[link3]"><span class="have-title"><span class="menu-title">[label3]</span></span></a>
+                                    <ul>
+                                        <tag:menu4[id3]>
+                                            <li><a href="[link4]">[label4]</a>
+                                                <ul>
+                                                    <tag:menu5[id4]>
+                                                        <li><a href="[link5]">[label5]</a></li>
+                                                    </tag:menu5[id4]>
+                                                </ul>
+                                            </li>
+                                        </tag:menu4[id3]>
+                                    </ul>
+                                </li>
+                            </tag:menu3[id2]>
+                        </ul>
+                    </li>
+                </tag:menu2[id]>
+            </ul>
+        </li>
+    </tag:menu1>
+</ul>
+</div>
+                                    </div>
+                                </div>
+                            </nav></div>
+	        <script>
+jQuery(document).ready(function(){
+jQuery("ul").each(
+function() {
+var elem = jQuery(this);
+if (elem.children().length == 0) {
+elem.remove();
+}
+}
+);
+});
+</script>

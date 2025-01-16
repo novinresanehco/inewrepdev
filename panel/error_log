@@ -1,0 +1,134 @@
+[12-Jan-2025 15:13:11 asia/Tehran] PHP Warning:  require(../plugins/recentshopproductsbycat/admin.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/thememanager.php on line 375
+[12-Jan-2025 15:13:11 asia/Tehran] PHP Fatal error:  require(): Failed opening required '../plugins/recentshopproductsbycat/admin.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/thememanager.php on line 375
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/shopcats/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/quickblock/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/accardeon/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/shopbestproducts/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/quickblock/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/shoprecentproducts/admin.php
+[12-Jan-2025 15:22:39 asia/Tehran] ../plugins/recentshopproductsbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/shopcats/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/quickblock/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/accardeon/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentpostbycat/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/shopbestproducts/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/quickblock/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/shoprecentproducts/admin.php
+[12-Jan-2025 15:23:15 asia/Tehran] loading...
+[12-Jan-2025 15:23:15 asia/Tehran] ../plugins/recentshopproductsbycat/admin.php
+[12-Jan-2025 15:23:29 asia/Tehran] loading...
+[12-Jan-2025 15:24:57 asia/Tehran] loading...
+[13-Jan-2025 22:46:37 asia/Tehran] PHP Fatal error:  Call to undefined function overrideDataOperations() in /home/sepehra8/public_html/panel/header.php on line 129
+[13-Jan-2025 22:46:40 asia/Tehran] PHP Fatal error:  Call to undefined function overrideDataOperations() in /home/sepehra8/public_html/panel/header.php on line 129
+[13-Jan-2025 22:46:45 asia/Tehran] PHP Fatal error:  Call to undefined function overrideDataOperations() in /home/sepehra8/public_html/panel/header.php on line 129
+[13-Jan-2025 22:46:45 asia/Tehran] PHP Fatal error:  Call to undefined function overrideDataOperations() in /home/sepehra8/public_html/panel/header.php on line 129
+[13-Jan-2025 22:52:36 Asia/Tehran] PHP Fatal error:  Cannot redeclare processStarValue() (previously declared in /home/sepehra8/public_html/panel/header.php:3) in /home/sepehra8/public_html/panel/header.php on line 84
+[13-Jan-2025 23:08:41 Asia/Tehran] PHP Fatal error:  Cannot redeclare processStarValue() (previously declared in /home/sepehra8/public_html/panel/header.php:3) in /home/sepehra8/public_html/panel/header.php on line 84
+[13-Jan-2025 23:23:27 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 523
+[13-Jan-2025 23:23:40 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/sepehra8/public_html/panel/header.php on line 37
+[13-Jan-2025 23:23:54 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 414
+[13-Jan-2025 23:24:00 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 414
+[13-Jan-2025 23:26:28 asia/Tehran] PHP Fatal error:  Call to undefined function overrideDataOperations() in /home/sepehra8/public_html/panel/header.php on line 129
+[13-Jan-2025 23:28:22 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 31
+[13-Jan-2025 23:35:58 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 31
+[13-Jan-2025 23:36:14 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 31
+[13-Jan-2025 23:36:18 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 31
+[13-Jan-2025 23:37:22 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 32
+[14-Jan-2025 00:17:44 Asia/Tehran] PHP Warning:  require(pfc1/phpfastcache.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 00:17:44 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'pfc1/phpfastcache.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 00:17:49 Asia/Tehran] PHP Warning:  require(pfc1/phpfastcache.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 00:17:49 Asia/Tehran] PHP Fatal error:  require(): Failed opening required 'pfc1/phpfastcache.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 00:25:21 Asia/Tehran] PHP Warning:  include(core/db.config.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 18
+[14-Jan-2025 00:25:21 Asia/Tehran] PHP Warning:  include(): Failed opening 'core/db.config.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 18
+[14-Jan-2025 00:25:21 Asia/Tehran] PHP Warning:  include(core/db.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 21
+[14-Jan-2025 00:25:21 Asia/Tehran] PHP Warning:  include(): Failed opening 'core/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 21
+[14-Jan-2025 00:25:21 Asia/Tehran] PHP Fatal error:  Class 'dbclass' not found in /home/sepehra8/public_html/panel/header.php on line 22
+[14-Jan-2025 00:25:35 Asia/Tehran] PHP Warning:  include(core/db.config.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 18
+[14-Jan-2025 00:25:35 Asia/Tehran] PHP Warning:  include(): Failed opening 'core/db.config.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 18
+[14-Jan-2025 00:25:35 Asia/Tehran] PHP Warning:  include(core/db.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 21
+[14-Jan-2025 00:25:35 Asia/Tehran] PHP Warning:  include(): Failed opening 'core/db.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 21
+[14-Jan-2025 00:25:35 Asia/Tehran] PHP Fatal error:  Class 'dbclass' not found in /home/sepehra8/public_html/panel/header.php on line 22
+[14-Jan-2025 00:53:48 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 414
+[14-Jan-2025 00:57:54 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 505
+[14-Jan-2025 00:58:05 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/header.php on line 505
+[14-Jan-2025 02:02:41 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 23
+[14-Jan-2025 02:04:07 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 23
+[14-Jan-2025 02:04:10 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 23
+[14-Jan-2025 02:15:31 asia/Tehran] PHP Fatal error:  Class 'db' not found in /home/sepehra8/public_html/panel/header.php on line 23
+[14-Jan-2025 02:50:23 Asia/Tehran] PHP Notice:  Use of undefined constant CORE_PATH - assumed 'CORE_PATH' in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 02:50:23 Asia/Tehran] PHP Warning:  require_once(CORE_PATHextended_db.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 02:50:23 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required 'CORE_PATHextended_db.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 02:53:21 Asia/Tehran] PHP Notice:  Use of undefined constant CORE_PATH - assumed 'CORE_PATH' in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 02:53:21 Asia/Tehran] PHP Warning:  require_once(CORE_PATH/extended_db.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 02:53:21 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required 'CORE_PATH/extended_db.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 17
+[14-Jan-2025 21:03:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 670
+[14-Jan-2025 21:09:21 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 21:32:54 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'head' (T_STRING), expecting ',' or ';' in /home/sepehra8/public_html/panel/thememanager.php on line 599
+[14-Jan-2025 21:35:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:13:13 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 670
+[14-Jan-2025 23:14:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:42:42 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:42:46 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:42:58 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 670
+[14-Jan-2025 23:43:01 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 670
+[14-Jan-2025 23:43:11 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:54:13 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:54:25 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:54:28 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:54:39 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 667
+[14-Jan-2025 23:54:48 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 670
+[14-Jan-2025 23:55:30 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:55:35 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:55:35 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:55:43 asia/Tehran] PHP Fatal error:  Class 'user' not found in /home/sepehra8/public_html/panel/header.php on line 92
+[14-Jan-2025 23:56:17 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sepehra8/public_html/panel/thememanager.php on line 1130
+[14-Jan-2025 23:56:26 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 1128
+[14-Jan-2025 23:56:34 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 1246
+[14-Jan-2025 23:56:36 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/sepehra8/public_html/panel/thememanager.php on line 1246
+[14-Jan-2025 23:57:00 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'undefined' (T_STRING) in /home/sepehra8/public_html/panel/thememanager.php on line 1129
+[14-Jan-2025 23:58:56 asia/Tehran] Missing required dependencies in thememanager.php
+[14-Jan-2025 23:59:31 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 00:05:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected '<' in /home/sepehra8/public_html/panel/thememanager.php on line 560
+[15-Jan-2025 00:05:52 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 00:06:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/sepehra8/public_html/panel/thememanager.php on line 560
+[15-Jan-2025 00:11:40 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 00:16:26 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 00:17:13 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 00:17:43 asia/Tehran] Missing required dependencies in thememanager.php
+[15-Jan-2025 03:40:57 Asia/Tehran] PHP Notice:  Undefined variable: tpl in /home/sepehra8/public_html/panel/extra.php on line 28
+[15-Jan-2025 03:40:57 Asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/extra.php on line 28
+[15-Jan-2025 03:41:01 Asia/Tehran] PHP Notice:  Undefined variable: tpl in /home/sepehra8/public_html/panel/extra.php on line 28
+[15-Jan-2025 03:41:01 Asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/extra.php on line 28
+[15-Jan-2025 03:41:21 Asia/Tehran] PHP Notice:  Undefined variable: tpl in /home/sepehra8/public_html/panel/extra.php on line 19
+[15-Jan-2025 03:41:21 Asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/extra.php on line 19
+[15-Jan-2025 05:29:08 asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/header.php on line 93
+[15-Jan-2025 05:29:11 asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/header.php on line 93
+[15-Jan-2025 06:17:07 asia/Tehran] PHP Fatal error:  Call to a member function assign() on null in /home/sepehra8/public_html/panel/header.php on line 96
+[15-Jan-2025 06:25:18 asia/Tehran] PHP Fatal error:  Class 'samaneh' not found in /home/sepehra8/public_html/panel/header.php on line 25
+[15-Jan-2025 06:25:20 asia/Tehran] PHP Fatal error:  Class 'samaneh' not found in /home/sepehra8/public_html/panel/header.php on line 25
+[15-Jan-2025 07:09:02 Asia/Tehran] PHP Warning:  require_once(../core/samaneh.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 11
+[15-Jan-2025 07:09:02 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required '../core/samaneh.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 11
+[15-Jan-2025 07:10:25 Asia/Tehran] PHP Warning:  require_once(../core/samaneh.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 11
+[15-Jan-2025 07:10:25 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required '../core/samaneh.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 11
+[15-Jan-2025 07:10:28 Asia/Tehran] PHP Warning:  require_once(../core/samaneh.php): failed to open stream: No such file or directory in /home/sepehra8/public_html/panel/header.php on line 11
+[15-Jan-2025 07:10:28 Asia/Tehran] PHP Fatal error:  require_once(): Failed opening required '../core/samaneh.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/sepehra8/public_html/panel/header.php on line 11

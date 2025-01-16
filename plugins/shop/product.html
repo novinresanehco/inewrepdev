@@ -1,0 +1,150 @@
+<!-- IF addProduct -->
+<script>
+    $( document ).ready( function() {
+        function list()
+        {
+            $( '#postLists' ).html( loadingt ).show();
+            $.ajax( {
+                url : 'plugins.php?plugin=shop&ac=product',
+                type : 'POST',
+                data : 'list=true',
+                success : function( result )
+                {
+                    $( '#postLists' ).html( result );
+                },
+                error : function()
+                {
+                    bootbox.alert( 'خطا در اتصال به سرور' );
+                }
+            } );
+        }
+        list();
+    } );
+</script>
+<input type="button" class="btn btn-success" value="افزودن محصول" id="addProdcut" onclick="$( this ).hide();
+        $( '#newProduct' ).slideDown();" />
+<br />
+<div id="newProduct" class="hide">
+    <form action="" method="POST">
+        <div style="float:right;width:100px;margin-top:1px">نوع محصول</div>
+        <div style="float:right;">
+            <select name="category">
+                <tag:categories><option value="[id]">[title]</option></tag:categories>
+            </select>
+        </div>
+        <div class="clear"></div>
+        <br />
+        <br />
+        <input type="submit" name="addForm" class="btn btn-success" value="افزودن محصول" />
+    </form>
+</div>
+<div id="postLists"></div>
+<!-- ENDIF addProduct -->
+<!-- IF newProduct -->
+<script>
+    $( document ).ready( function() {
+        $( '#addImage' ).click( function() {
+            var c = $( '.productImage' ).length + 1;
+            $( '#images' ).append( '<div style="clear:both"></div><br /><input type="text" name="images[]" id="image_' + c + '" class="input-xlarge productImage" value="" /> - <a href="mfm.php?mode=standalone&amp;field=image_' + c + '" class="browsefile"><img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست"></a>' );
+            return false;
+        } );
+        $( '#newProductFrm' ).submit( function() {
+            $( '#loading' ).html( loadingt ).show();
+            tinymce.triggerSave();
+            $( '#newProduct' ).slideUp();
+            $.ajax( {
+                url : 'plugins.php?plugin=shop&ac=product',
+                type : 'POST',
+                dataType : 'json',
+                data : 'category=[ncategoryID]&' + $( '#newProductFrm' ).serialize(),
+                success : function( result )
+                {
+                    if ( result.success )
+                    {
+                        $( '#loading' ).hide();
+                        bootbox.alert( 'محصول با موفقیت اضافه شد.' );
+                    }
+                    else
+                    {
+                        bootbox.alert( result.error );
+                        $( '#loading' ).hide();
+                        $( '#newProduct' ).slideDown();
+                    }
+                },
+                error : function()
+                {
+                    bootbox.alert( 'خطا در اتصال' );
+                    $( '#loading' ).hide();
+                    $( '#newProduct' ).slideDown();
+                }
+            } );
+            return false;
+        } );
+    } );
+</script>
+<div id="loading"></div>
+<div id="newProduct">
+    <form id="newProductFrm" action="" method="POST">
+        <div style="float:right;width:100px;margin-top:1px">عنوان محصول *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="productName" value="" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">توضیحات محصول *</div>
+        <div style="float:right;">
+            <textarea name="description_text" class="editor"></textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px"> قیمیت *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="price" value="" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">موجودی *</div>
+        <div style="float:right;">
+            <input type="text" class="input-xlarge" name="stock" value="" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">تصویر:</div>
+        <div style="float:right;">
+            <span id="images">
+                <input type="text" name="images[]" id="image_1" class="input-xlarge productImage" value="" /> - <a href="mfm.php?mode=standalone&amp;field=image_1" class="browsefile">
+                    <img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست">
+                </a>
+            </span>
+            <br /><a id="addImage" href="">افزودن تصویر جدید</a>
+        </div>
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">دسته</div>
+        <div style="float:right;">
+            [categoryTitle]
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <tag:fields>
+            <div style="clear:both"></div>
+            <div style="float:right;width:100px;margin-top:1px">[title]:</div>
+            <div style="float:right;">
+                <input type="text" name="fields[[name]]" class="input-xlarge" value="" />
+            </div>
+            <div style="clear:both"></div>
+            <br />
+        </tag:fields>
+        <tag:fieldstext>
+            <div style="clear:both"></div>
+            <div style="float:right;width:100px;margin-top:1px">[title]:</div>
+            <div style="float:right;">
+                <textarea class="editor" name="fields[[name]]"></textarea>
+            </div>
+            <div style="clear:both"></div>
+            <br />
+        </tag:fieldstext>
+        <div style="clear:both"></div>
+        <input type="submit" name="addProduct" class="btn btn-success" value="افزودن محصول" />
+    </form>
+</div>
+<!-- ENDIF newProduct -->

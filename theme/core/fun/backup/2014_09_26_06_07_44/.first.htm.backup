@@ -1,0 +1,283 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[sitetitle]</title>
+                    <meta name="keywords" content="[sitekeywords]">
+                        <meta name="description" content="[sitedescription]">
+<meta name="robots" content="index,follow" />
+							<base href="[site]" target="_self">
+<link rel="canonical" href="[site]" />
+<link rel="alternate" type="application/rss+xml" title="title" href="[site]/rss.xml" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- main JS libs -->
+<script src="[site]theme/core/fun/js/libs/modernizr.min.js"></script>
+<script src="[site]theme/core/fun/js/libs/jquery-1.10.0.js"></script>
+<script src="[site]theme/core/fun/js/libs/jquery-ui.min.js"></script>
+<script src="[site]theme/core/fun/js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS -->
+<link href="[site]theme/core/fun/css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="[site]theme/core/fun/style.css" media="screen" rel="stylesheet">
+
+<!-- scripts -->
+<script src="[site]theme/core/fun/js/general.js"></script>
+<!-- custom input -->
+<script src="[site]theme/core/fun/js/jquery.customInput.js"></script>
+<script type="text/javascript" src="[site]theme/core/fun/js/custom.js"></script>
+<!-- Placeholders -->
+<script type="text/javascript" src="[site]theme/core/fun/js/jquery.powerful-placeholder.min.js"></script>
+
+  <style type="text/css">
+body
+{
+background: [config_theme_fun_bgcolor] url('[config_theme_fun_mainbg]') repeat;
+} 
+        </style>
+<!-- Scroll Bars -->
+<script src="[site]theme/core/fun/js/jquery.mousewheel.js"></script>
+<script src="[site]theme/core/fun/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript">
+	jQuery(function()
+	{
+		jQuery('.scrollbar.style2').jScrollPane({
+			verticalDragMaxHeight: 30,
+			verticalDragMinHeight:30
+		});
+	});
+</script>
+
+<!--[if lt IE 9]><script src="[site]theme/core/fun/js/respond.min.js"></script><![endif]-->
+<!--[if gte IE 9]>
+<style type="text/css">
+    .gradient {filter: none !important;}
+</style>
+<![endif]-->
+</head>
+
+
+<body>
+    <div class="body_wrap">
+        <div class="container">
+
+       
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	
+	<div class="collapse navbar-collapse">
+		
+  <ul class="dropdown clearfix gradient">
+                        <li class="menu-level-0"><a href="#"><span>Home</span></a></li>
+                        <li class="menu-level-0"><a href="#"><span>About</span></a>
+                            <ul class="submenu-1">
+                                <li class="menu-level-1"><a href="#">Web design</a></li>
+                                <li class="menu-level-1"><a href="#">User interface</a></li>
+                                <li class="menu-level-1"><a href="#">Social media</a>
+                                    <ul class="submenu-2">
+                                        <li class="menu-level-2"><a href="#">Gallery images</a></li>
+                                        <li class="menu-level-2"><a href="#">OneByOne Slider</a></li>
+                                        <li class="menu-level-2"><a href="#">Video in header</a></li>
+                                        <li class="menu-level-2"><a href="#">Video Slider</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-level-0"><a href="#"><span>Contacts</span></a></li>
+                    </ul>
+	
+		
+	</div>
+</div>
+
+
+<div class="row wrap" style="padding-top:55px;">
+  
+  <!--left-->
+  <div class="col-sm-3">
+    <sidebar_1_3>
+     <div class="row">
+      <div class="col-xs-12">
+	  <tag:position4>
+				<div class="add-comment styled boxed boxed-cream">
+                    <span class="add-comment-close">&times;</span>
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                       [content]
+                    </div>
+                </div></tag:position4>
+        <hr>
+	   </div>
+      </div>
+    	</sidebar_1_3>
+    
+  </div><!--/left-->
+  
+  <!--center-->
+  <div class="col-sm-6">
+
+    <div class="row">
+	    <!-- Image Slider -->
+                <div class="widget-container widget_gallery boxed boxed-cream">
+                    <div class="inner">
+                        <div id="myCarousel" class="carousel slide" data-interval="20000">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <img src="[site]theme/core/fun/images/temp/top-slider-5.jpg" alt="" />
+                                    <div class="carousel-title"><h6>Ratatouille</h6><p>The latest unstoppable hero</p></div>
+                                </div>
+                                <div class="item">
+                                    <img src="[site]theme/core/fun/images/temp/top-slider-2.jpg" alt="" />
+                                    <div class="carousel-title"><h6>Horton</h6><p>Change your fate</p></div>
+                                </div>
+                                <div class="item">
+                                    <img src="[site]theme/core/fun/images/temp/top-slider-3.jpg" alt="" />
+                                    <div class="carousel-title"><h6>Surf up</h6><p>Change your fate</p></div>
+                                </div>
+                                <div class="item">
+                                    <img src="[site]theme/core/fun/images/temp/top-slider-4.jpg" alt="" />
+                                    <div class="carousel-title"><h6>Wall-e</h6><p>Disney Pixar</p></div>
+                                </div>
+                                <div class="item">
+                                    <img src="[site]theme/core/fun/images/temp/top-slider-1.jpg" alt="" />
+                                    <div class="carousel-title"><h6>Ice Age</h6><p>Change your fate</p></div>
+                                </div>
+                            </div>
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+                        </div>
+                    </div>
+					                        <!-- tabs -->
+                        <div class="tabs_framed styled">
+                            <div class="inner">
+                                <ul class="tabs clearfix active_bookmark1">
+                                    <li class="active"><a href="#hits" data-toggle="tab">پر بازدید ترین ها</a></li>
+                                    <li><a href="#event" data-toggle="tab">حوادث</a></li>
+                                    <li><a href="#social" data-toggle="tab">اجتماعی</a></li>
+                                    <li><a href="#art" data-toggle="tab">فرهنگ و هنر</a></li>
+									<li><a href="#economy" data-toggle="tab">اقتصادی</a></li>
+                                    <li><a href="#recreational" data-toggle="tab">تفریحی</a></li>
+                                </ul>
+
+                                <div class="tab-content clearfix">
+                                    <div class="tab-pane fade in active" id="hits">
+									<div class="scrollbar style2">
+                       <div class="inner">
+					   [mostViewed]
+						</div></div>   
+                                    </div>
+                                    <div class="tab-pane fade" id="event">
+										[recentPostByCat_[config_theme_fun_tabCategory2]]
+                                    </div>
+                                    <div class="tab-pane fade" id="social">
+                                        [recentPostByCat_[config_theme_fun_tabCategory3]
+                                    </div>
+                                    <div class="tab-pane fade" id="art">
+                                        [recentPostByCat_[config_theme_fun_tabCategory4]]
+                                    </div>
+									<div class="tab-pane fade" id="economy">
+                                        [recentPostByCat_[config_theme_fun_tabCategory5]
+                                    </div>
+									<div class="tab-pane fade" id="recreational">
+                                        [recentPostByCat_[config_theme_fun_tabCategory6]]
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ tabs -->
+                </div>
+                <!--/ Image Slider -->
+				
+			<sidebar_1_2>
+			<tag:mp>
+			<div class="add-comment styled boxed boxed-cream">
+                    <div class="add-comment-title gradient"><h3 style="float: right; direction: rtl;background-color: rgba(78, 255, 0, 0.29); height: 72%;">[subject] »</h3><a href="[link]"><h3>[title]</h3></a></div>
+                    <div class="comment-form"><!-- IF hasImage -->
+					<img class="img-thumbnail"  alt="[title]" src="[timage]" style="float: right; width: 20%;margin: 6px -4px -4px 7px;"><!-- ENDIF hasImage -->
+                      [body]
+                    </div>
+                </div>
+			</tag:mp>
+			<tag:position3>	
+	<div class="add-comment styled boxed boxed-cream">
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                      [content]
+                    </div>
+                </div></tag:position3>
+</sidebar_1_2>
+    </div>
+    <hr>
+    <div class="buttons">
+     <tag:pages_prev><a href="[pagelink]" class="btn btn-left"><span>Back</span></a></tag:pages_prev>
+     <tag:pages><a href="[pagelink]" class="btn btn-hover"><span>[page]</span></a></tag:pages>
+     <tag:pages_next><a href="[pagelink]" class="btn btn-right"><span>Next</span></a></tag:pages_next>
+                    </div>
+
+					
+  </div><!--/center-->
+  
+  
+  <!--right-->
+  <div class="col-sm-3">
+    <sidebar_1_1>
+    <div class="row">
+     <div class="col-xs-12">
+	  
+				<tag:position2>
+    	<div class="add-comment styled boxed boxed-cream">
+                    <span class="add-comment-close">&times;</span>
+                    <div class="add-comment-title gradient"><h3>[title]</h3></div>
+                    <div class="comment-form">
+                       [content]
+                    </div>
+                </div>
+</tag:position2>
+        <hr>
+	   </div>
+      </div>
+    </sidebar_1_1>
+  </div><!--/right-->
+  
+  <hr>
+  
+</div>
+
+        </div>
+        <!--/ container -->
+    </div>
+	<div>
+	
+<div class="footer" style="background-color: rgba(250, 235, 215, 0.27);">
+              <div class="container">
+               
+                  <div class="footer-logo"><a href="[site]"><img src="[config_theme_fun_footerlogo]"></a></div>
+                
+                <div class="footer-copyright text-center" style="direction: rtl;">تمام حقوق مادی و معنوی این سایت متعلق به[sitetitle]می باشد</div>
+              </div>
+            </div>
+	</div>
+</body>
+</html>

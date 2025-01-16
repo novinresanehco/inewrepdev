@@ -1,0 +1,59 @@
+<!-- IF Contact_Error -->
+<div class="error">[ErrorMsg]</div>
+<!-- ENDIF Contact_Error -->
+<!-- IF Contact_success --><div class="success" align="right">
+	[Msg]</div>
+<!-- ENDIF Contact_success -->
+
+<!-- IF Contact_Form -->
+
+						<div class="extra-content">
+							<div id="text-4" class="ep_widget widget_text grid_6">
+								<h3 class="col-title">تماس باما</h3>
+								<span class="liner"></span>			
+								<div class="textwidget">
+									
+									<div class="ttcf7" lang="en-US" dir="ltr">
+										
+										<div class="screen-reader-response"></div>
+										
+										<form name="contactform" id="contactform" action="" method="post" class="ttcf7-form" novalidate="novalidate">
+											
+											<div class="custom-ds"></div>
+											
+											<p>نام و نام خانوادگی :<br />
+												<span class="ttcf7-form-control-wrap your-name">
+												<input type="text" name="name" id="your-name" value="[contact_name]" size="40" class="ttcf7-form-control ttcf7-text ttcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> 
+											</p>
+											
+											<p>آدرس ایمیل:<br />
+												<span class="ttcf7-form-control-wrap your-email">
+												<input type="email" name="email" id="your-email" value="[contact_email]" size="40" class="ttcf7-form-control ttcf7-text ttcf7-email ttcf7-validates-as-required ttcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> 
+											</p>
+											
+											<p>تلفن :<br />
+												<span class="ttcf7-form-control-wrap your-subject">
+												<input type="text" name="tell" id="your-subject" value="[contact_tell]" size="40" class="ttcf7-form-control ttcf7-text" aria-invalid="false" /></span> 
+											</p>
+											
+											<p>متن :<br />
+												<span class="ttcf7-form-control-wrap your-message">
+												<textarea name="text" id="your-message" cols="40" rows="10" class="ttcf7-form-control ttcf7-textarea" aria-invalid="false">[contact_text]</textarea></span> </p>
+											
+											<p><input type="submit" value="Send" class="ttcf7-form-control ttcf7-submit" /></p>
+											
+											<div class="ttcf7-response-output ttcf7-display-none"></div>
+										</form>
+									
+									</div>
+								
+								</div>
+							
+							</div>
+	
+							<div id="text-5" class="ep_widget widget_text grid_6">
+								[contacttxt]
+							
+							</div>           
+						
+						</div><!-- ENDIF Contact_Form -->

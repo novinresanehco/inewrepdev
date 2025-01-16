@@ -1,0 +1,42 @@
+<form id="pageThemes" method="post">
+    <table border="0" width="95%" class="table table-striped">
+        <tr>
+            <td align="center"><b>نام صفحه</b></td>
+            <td align="center"><b>قالب صفحه</b></td>
+        </tr>
+        <tag:listtr>
+            <tr>
+                <td>[title]</td>
+                <td>
+                    <select name="extraTheme[[id]]" class="select2">
+                        <tag:extraThemes_[id]>
+                            <option value="[theme]" [selected]>[theme]</option>
+                        </tag:extraThemes_[id]>
+                    </select>
+                </td>
+            </tr>
+        </tag:listtr>
+    </table>
+</form>
+<center>
+    <input type="button" class="btn btn-success" value="ثبت تنظیمات" id="savePageThemes" />
+</center>
+<script>
+    $( '#savePageThemes' ).on( 'click', function()
+    {
+        $.ajax( {
+            url: 'pages/thememanager.php',
+            data: 'themeAction=savePageThemes&' + $( '#pageThemes' ).serialize(),
+            type: 'post',
+            success: function( result )
+            {
+                $( '#savePageThemesResult' ).html( result );
+                tab_6();
+            },
+            error: function()
+            {
+                alert( 'error' );
+            }
+        } );
+    } );
+</script>

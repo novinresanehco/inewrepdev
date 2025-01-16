@@ -1,0 +1,51 @@
+<table border="0" width="95%" class="table table-striped" id="duplicate">
+    <tbody>
+        <tr>
+            <td height="26" align="center" width="3%">
+                #
+            </td>
+            <td height="26" align="center">
+                <b>تاریخ سفارش</b>
+            </td>
+            <td height="26" align="center">
+                <b>مشتری</b>
+            </td>
+            <td height="26" align="center">
+                <b>قیمت</b>
+            </td>
+            <td height="26" align="center">
+                <b>وضعت</b>
+            </td>
+            <td height="26" align="center">
+                <b>عملیات</b>
+            </td>
+        </tr>
+    <tag:orders>
+        <tr>
+            <td height="26" align="right" width="3%">
+                [row]
+            </td>
+            <td height="26" align="center">
+                [date]
+            </td>
+            <td height="26" align="center">
+                [customer]
+            </td>
+            <td height="26" align="center">
+                [price]
+            </td>
+            <td height="26" align="center">
+                [status]
+            </td>
+            <td height="26" align="center">&nbsp;
+                <a href="plugins.php?plugin=eshop&ac=orders&edit=[orderID]">
+                    <img border="0" src="../theme/admin/pannonia/images/edit.gif">
+                </a>
+                <a onclick="return confirm( 'سفارش حذف شود؟' )" href="plugins.php?plugin=eshop&ac=orders&delete=[orderID]">
+                    <img border="0" src="../theme/admin/pannonia/images/trash.gif">
+                </a>
+            </td>
+        </tr>
+    </tag:orders>
+</tbody>
+</table>

@@ -1,0 +1,47 @@
+<div class="top-form top-form-minicart minicart-product-style3 pull-right">
+<div class="top-minicart pull-right">
+    <a class="cart-contents" href="?basket" title="مشاهده سبد خرید"><span class="minicart-number"></span> </a>
+</div>
+<div class="wrapp-minicart">
+    <div class="minicart-padding">
+        <ul class="minicart-content">
+<!-- IF noProduct -->
+<li>
+    <div class="detail-item">
+        <div class="product-details" style="margin-right: 10px;">
+            <p class="product-name">
+                <span>سبد خرید فاقد محصول است.</span>      
+            </p>
+        </div>
+    </div>
+</li>
+<!-- ENDIF noProduct -->
+<!-- IF hasProducts -->
+<tag:products><li>
+    <div class="detail-item" style="margin-right: 10px;">
+        <div class="product-details">
+            <a href="[deleteUrl]" class="btn-remove" title="حذف کردن این آیتم"><span></span></a>           
+            <a class="btn-edit" href="?basket" title="مشاهده سبد خرید"><span></span></a>    
+            <br>
+            <p class="product-name">
+                <a href="[productUrl]">[product]</a>
+                <span class="qty-number">[count]</span>        
+            </p>
+        </div>
+        <div class="product-details-bottom">
+            <span class="price"><span class="amount">[price]</span></span>		        		        		    		
+        </div>
+    </div>
+</li></tag:products><!-- ENDIF hasProducts -->
+
+        </ul>
+        <div class="cart-checkout">
+<div class="price-total">
+    <span class="label-price-total">مجموع:</span>
+    <span class="price-total-w"><span class="price"><span class="amount">[totalPrice]</span></span></span>
+</div>
+<div class="cart-link"><a href="[siteurl]?basket" title="Cart">رفتن به سبد خرید</a></div>
+        </div>
+    </div>
+</div>
+</div>

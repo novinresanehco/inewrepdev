@@ -1,0 +1,53 @@
+<form id="pay_settings" method="post" action="">
+<div id="loading" style="display:none"></div>
+<tag:banks>
+	<div class="alert alert-info">ویرایش تنظیمات درگاه <b>[gateway_title]</b></div>
+	<tag:gateway_[gateway]>
+	<div style="float:right;width:100px;margin-top:1px">[field]</div>
+    <div style="float:right;">
+    <input type="text" class="input-xlarge" style="direction:ltr;text-align:left" name="[gateway][[field]]" value="[value]">
+    </div>
+    <br><br>
+    <div style="clear:both"></div>
+	</tag:gateway_[gateway]>
+	<hr />
+</tag:banks>
+<center><input type="submit" name="saveSettings" class="btn btn-success" value="ثبت تنظیمات"></center>
+</form>
+<script>
+    $( document ).ready( function() {
+        $( '#pay_settings' ).submit( function() {
+            $( '#loading' ).html( loadingt ).show();
+            $( '#pay_settings' ).slideUp();
+            var Fdata = $( this ).serialize();
+            $.ajax( {
+                url : 'plugins.php?plugin=eshop&ac=saveSettings',
+                type : 'POST',
+                dataType : 'json',
+                data : Fdata,
+                success : function( result )
+                {
+                    if ( result.success )
+                    {
+                        $( '#loading' ).hide();
+                        bootbox.alert( 'تنظیمات با موفقیت ذخیره شدند.' );
+                        $( '#pay_settings' ).slideDown();
+                    }
+                    else
+                    {
+                        bootbox.alert( result.error );
+                        $( '#loading' ).hide();
+                        $( '#pay_settings' ).slideDown();
+                    }
+                }
+                , error : function(  )
+                {
+                    bootbox.alert( 'خطا در اتصال' );
+                    $( '#loading' ).hide();
+                    $( '#pay_settings' ).slideDown();
+                }
+            } );
+            return false;
+        } );
+    } );
+</script>

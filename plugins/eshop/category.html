@@ -1,0 +1,115 @@
+<script>
+    $( document ).ready( function() {
+        function list()
+        {
+            $( '#categoryList' ).html( loadingt ).show();
+            $.ajax( {
+                url : 'plugins.php?plugin=eshop&ac=category',
+                type : 'POST',
+                data : 'list=true',
+                success : function( result )
+                {
+                    $( '#categoryList' ).html( result );
+                },
+                error : function()
+                {
+                    bootbox.alert( 'خطا در اتصال به سرور' );
+                }
+            } );
+        }
+        list();
+        $( '#newCategoryFrm' ).submit( function() {
+            $( '#loading' ).html( loadingt ).show();
+            tinymce.triggerSave();
+            $( '#newCategory' ).slideUp();
+            var Fdata = $( this ).serialize();
+            $.ajax( {
+                url : 'plugins.php?plugin=eshop&ac=category',
+                type : 'POST',
+                dataType : 'json',
+                data : Fdata,
+                success : function( result )
+                {
+                    if ( result.success )
+                    {
+                        $( '#loading' ).hide();
+                        list();
+                        bootbox.alert( 'دسته با موفقیت ثبت شد.' );
+                        $( '#addCategory' ).show();
+                    }
+                    else
+                    {
+                        bootbox.alert( result.error );
+                        $( '#loading' ).hide();
+                        $( '#newCategory' ).slideDown();
+                    }
+                }
+                , error : function(  )
+                {
+                    bootbox.alert( 'خطا در اتصال' );
+                    $( '#loading' ).hide();
+                    $( '#newCategory' ).slideDown();
+                }
+            } );
+            return false;
+        } );
+    } );
+</script>
+<input type="button" class="btn btn-success" value="افزودن دسته" id="addCategory" onclick="$( this ).hide();
+        $( '#newCategory' ).slideDown();" />
+<br />
+<div id="loading" style="display:none"></div>
+<div id="newCategory" class="hide">
+    <form id="newCategoryFrm" action="" method="POST">
+        <div style="float:right;width:100px;margin-top:1px">نام دسته: *</div>
+        <div style="float:right;">
+            <input type="text" name="name" value="" />
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">توضیحات:</div>
+        <div style="float:right;">
+            <textarea name="description_text" style="width:250px;height:200px"></textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">تصویر:</div>
+        <div style="float:right;">
+            <input type="text" name="image" id="image" value="" /> - <a href="mfm.php?mode=standalone&amp;field=image" class="browsefile">
+                <img src="../theme/admin/irancms/images/icon/image.gif" alt="درج از لیست" title="درج از لیست">
+            </a>
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <br />
+        <div style="clear:both"></div>
+        <div style="float:right;width:100px;margin-top:1px">دسته اصلی</div>
+        <div style="float:right;">
+            
+            
+            <select name="parent">
+                <option value="0">--- دسته اصلی ---</option>
+                <tag:categories><option value="[id]">[title]</option></tag:categories>
+            </select>
+        </div>
+        <div style="clear:both"></div>
+        <br />
+        <br />
+        <div style="float:right;width:100px;margin-top:1px">توضیحات پس از خرید محصول: </div>
+        <div style="float:right;">
+            <textarea name="afterPayment_text" class="editor"></textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <br /><br />
+        <div style="float:right;width:100px;margin-top:1px">فیلدهای محصول - هر فیلد را در یک خط وارد کنید.</div>
+        <div style="float:right;">
+            <textarea name="fields"  style="width:250px;height:200px"></textarea>
+        </div>
+        <br /><br />
+        <div style="clear:both"></div>
+        <input type="submit" name="addSubject" class="btn btn-success" value="افزودن دسته" />
+    </form>
+</div>
+<hr />
+<div id="categoryList"></div>

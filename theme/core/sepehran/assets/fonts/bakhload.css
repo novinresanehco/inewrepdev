@@ -1,0 +1,81 @@
+html,body{font-family:bakhr;}
+p {
+    text-align: right;
+}
+.h3, h3 {
+    text-align: right;
+}
+@media (max-width: 990px) {
+   .inovin {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+    header.header .navbar ul.navbar-nav {
+        display: flex  !important;
+        flex-direction: column-reverse  !important;
+    }
+}
+header.header .navbar ul.navbar-nav li.nav-item a.nav-link {
+  text-align: center;
+}
+section.component-3-thumbs div h3.title {
+  text-align: right !important;
+}
+section.component-3-thumbs div h3 a, section.component-3-thumbs div p {
+  text-align: right !important;
+}
+section.component-3-thumbs div h4 {
+  text-align:  right !important;
+}
+.component-latest-news h4 {
+  text-align: center;
+  direction: rtl;
+}
+section.component-3-color-thumbs .icon-img {
+  margin: 0 auto !important;
+  padding: 5px !important;
+  padding-top: 0px !important;
+}
+.ribboned-link-row .btn.btn-primary i {
+  left: 15px !important;right: unset !important;
+}
+.text-left {
+  text-align: right !important;
+}
+.ienmen {margin: -4px;}
+.dropdown-menu {
+font-family:bakhb;
+}
+header.header .navbar ul.navbar-nav li.nav-item a.nav-link {
+ font-family:bakhb;
+}
+header.header .navbar ul.navbar-nav li.nav-item .dropdown-menu .dropdown-item {
+    text-align: right;
+}
+#menu-who-we-are{ font-family:bakhb;}
+header.header .navbar ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 16px;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown .nav-link {
+    padding-right: 25px;padding-left: 18px;
+  }
+}
+
+@font-face {
+	font-family: bakhr;
+	src: url(bakh/Yekan-Bakh-Regular.eot);
+	src: url(bakh/Yekan-Bakh-Regular.eot?#iefix) format("embedded-opentype"), url(bakh/Yekan-Bakh-Regular.woff) format("woff"), url(bakh/Yekan-Bakh-Regular.ttf) format("truetype");
+	font - weight: 400;
+	font - display: swap;
+	font - style: normal
+}
+@font-face {
+	font-family: bakhb;
+	src: url(bakh/Yekan-Bakh-Bold.eot);
+	src: url(bakh/Yekan-Bakh-Bold.eot?#iefix) format("embedded-opentype"), url(bakh/Yekan-Bakh-Bold.woff) format("woff"), url(bakh/Yekan-Bakh-Bold.ttf) format("truetype");
+	font - weight: 600;
+	font - display: swap;
+	font - style: normal
+}

@@ -1,0 +1,207 @@
+<form action="" method="post">
+    <table border="0" width="95%" class="table table-striped" id="duplicate">
+        <tbody>
+            <tr>
+                <td align="center">
+                    شناسه سفارش
+                </td>
+                <td align="center">
+                    <b>[trackKey]</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    قیمت
+                </td>
+                <td align="center">
+                    <b style="color:red">[price]</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    زمان
+                </td>
+                <td align="center">
+                    <b>[time]</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    لیست محصولات
+                </td>
+                <td align="center">
+                    <table border="0" width="95%" class="table table-striped" id="duplicate">
+                        <tbody>
+                            <tr>
+                                <td align="center">
+                                    <b>ردیف</b>
+                                </td>
+                                <td align="center">
+                                    <b>نام محصول</b>
+                                </td>
+                                <td align="center">
+                                    <b>قیمت واحد</b>
+                                </td>
+                                <td align="center">
+                                    <b>تعداد</b>
+                                </td>
+                                <td align="center">
+                                    <b>قیمت کل</b>
+                                </td>
+                            </tr>
+                        <tag:eproducts>
+                            <tr>
+                                <td align="center">
+                                    [row]
+                                </td>
+                                <td align="center">
+                                    <a href="plugins.php?plugin=eshop&ac=product&edit=[productID]" target="_blank"> [product]</a>
+                                </td>
+                                <td align="center">
+                                    [price]
+                                </td>
+                                <td align="center">
+                                    [count]
+                                </td>
+                                <td align="center">
+                                    [totalPrice]
+                                </td>
+                            </tr>
+                        </tag:eproducts>
+        </tbody>
+    </table>
+</td>
+</tr>
+<tr>
+    <td align="center">
+        وضعیت سفارش
+    </td>
+    <td align="center">
+        <select name="status"><tag:orderStatus><option [select] value="[key]">[value]</option></tag:orderStatus></select>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        نام و نام خانوادگی
+    </td>
+    <td align="center">
+        <b>[fullname]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        آدرس
+    </td>
+    <td align="center">
+        <b>[address]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        موبایل
+    </td>
+    <td align="center">
+        <b>[mobile]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        تلفن
+    </td>
+    <td align="center">
+        <b>[tell]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        کد پستی
+    </td>
+    <td align="center">
+        <b>[zip]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        توضیح مدیر
+    </td>
+    <td align="center">
+        <textarea class="editor" name="adminStatus">[adminStatus]</textarea>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        آدرس آی پی
+    </td>
+    <td align="center">
+        <b>[ip]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        اطلاعات پروکسی
+    </td>
+    <td align="center">
+        <b>[logProxy]</b>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        تراکنشات محصول
+    </td>
+    <td align="center">
+        <table border="0" width="95%" class="table table-striped" id="duplicate">
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <b>ردیف</b>
+                    </td>
+                    <td align="center">
+                        <b>شناسه تراکنش</b>
+                    </td>
+                    <td align="center">
+                        <b>وضعیت</b>
+                    </td>
+                    <td align="center">
+                        <b>قیمت</b>
+                    </td>
+                    <td align="center">
+                        <b>زمان</b>
+                    </td>
+                    <td align="center">
+                        <b>درگاه</b>
+                    </td>
+                </tr>
+            <tag:transactions>
+                <tr>
+                    <td align="center">
+                        [row]
+                    </td>
+                    <td align="center">
+                        [trackKey]
+                    </td>
+                    <td align="center">
+                        [status]
+                    </td>
+                    <td align="center">
+                        [price]
+                    </td>
+                    <td align="center">
+                        [time]
+                    </td>
+                    <td align="center">
+                        [gateway]
+                    </td>
+                </tr>
+            </tag:transactions>
+            </tbody>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" style="text-align:center">
+        <input type="submit" class="btn btn-primary" value="ثبت تغییرات" />
+    </td>
+</tr>
+</tbody>
+</table>
+</form>
